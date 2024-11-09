@@ -1,0 +1,46 @@
+# Node.js dependencies
+frontend/chann3l_frontend/node_modules/
+
+# Build output
+frontend/chann3l_frontend/dist/
+frontend/chann3l_frontend/build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache and generated files
+frontend/chann3l_frontend/.cache/
+frontend/chann3l_frontend/.next/
+
+# Static files that should not be committed
+frontend/chann3l_frontend/public/
+frontend/chann3l_frontend/src/assets/
+
+# Python cache
+backend/__pycache__/
+backend/*.pyc
+
+# Python virtual environment
+chann3l_venv/
+
+# Miscellaneous
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
